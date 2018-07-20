@@ -19,7 +19,33 @@ what signing into a BBS was like at the time:
 
     Username: 
 
-Omit the filename to connect to the fozztexx BBS.
+Omit the filename to connect to the fozztexx BBS:
+
+    % python modem_simulator.py 300
+    Welcome to the *NEW* Level 29 BBS!
+    916 965 1701 - bbs.fozztexx.com
+
+                  __
+      ___________/__\___________
+     /   _  _  -__ -   ___  -   \
+     \__________________________/
+                 |  |
+                 |  |
+            _____|  |______
+        ___|     |  |      |___
+       |   |     |  |      |   |
+    ___|___|____/____\_____|___|___
+                            __   __
+    |     __        __  |  /  \ /  \
+    |    /__\ |  | /__\ |   __/ \__/
+    |___ \__   \/  \__  |  /___   /
+
+    The official BBS of
+    RetroBattlestations.com
+
+
+    Enter your username or NEW or VISITOR
+    User:
 
 I used a 300 baud modem for a year, then saw a friend's 1200 baud modem
 signing into a BBS. My subjective experience was that the page loaded

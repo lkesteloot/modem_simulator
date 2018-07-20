@@ -1,8 +1,9 @@
-This is a simple Python program that displays a text file in a terminal at
-modem speeds. Early 1980s speeds were 300 and 1200 baud, so you can try that if
-you want to see what signing into a BBS at the time was like:
+This program displays text in a terminal at modem speeds. It can connect to the
+[fozztexx BBS](http://bbs.fozztexx.com/) or display a local text file. Early
+1980s speeds were 300 and 1200 baud, so you can try that if you want to see
+what signing into a BBS was like at the time:
 
-    % python modem_simulator.py fidonet.txt 300
+    % python modem_simulator.py 300 fidonet.txt
     Welcome to FidoNet!
                         __
                        /  \
@@ -17,6 +18,8 @@ you want to see what signing into a BBS at the time was like:
      (c) John Madil
 
     Username: 
+
+Omit the filename to connect to the fozztexx BBS.
 
 I used a 300 baud modem for a year, then saw a friend's 1200 baud modem
 signing into a BBS. My subjective experience was that the page loaded
